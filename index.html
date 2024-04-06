@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandan's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        .hero-section {
+            background-image: url(https://images.unsplash.com/photo-1471032432678-03409d91e045?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+        .profile-image {
+            width: 321.65px; /* Adjust the width as needed */
+            height: 426.7px; /* Adjust the height as needed */
+            border-radius: 5%; /* Makes the image circular */
+            margin-top: 3px; /* Add spacing below the image */
+            margin-bottom: 3px;
+        }
+        .hero-title {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .hero-desc {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+        .about-section, .skills-section, .contact-section, .education-section {
+            text-align: center;
+            padding: 60px 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .about-desc, .skills-list, .contact-desc, .education-desc {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .skills-item {
+            margin-bottom: 20px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .skills-item i {
+            margin-right: 10px;
+            font-size: 24px;
+            color: #333;
+        }
+        .contact-section a {
+            color: rgb(58, 69, 192);
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .copyright {
+            font-size: 14px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#">Chandan's Portfolio</a>
+        </div>
+    </header>
+    <section class="hero-section">
+        <div class="container">
+            <img src="profile.jpg" alt="Profile Image" class="profile-image">
+            <h1 class="hero-title">Chandan</h1>
+            <p class="hero-desc">Passionate tech enthusiast and computer science student</p>
+        </div>
+    </section>
+    <section class="about-section">
+        <div class="container">
+            <h2 class="about-title">About Me</h2>
+            <p class="about-desc">
+                I am Chandan, a dedicated and ambitious individual with a strong passion for technology. I believe in continuous learning and strive to achieve excellence in everything I do. My goal is to make a positive impact in the field of computer science and contribute to the development of innovative solutions.
+            </p>
+        </div>
+    </section>
+    <section class="skills-section">
+        <div class="container">
+            <h2 class="skills-title">Skills</h2>
+            <ul class="skills-list">
+                <li class="skills-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span class="skills-name">Programming Languages: C, C++, Python, HTML, CSS</span>
+                </li>
+                <li class="skills-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span class="skills-name">Web Development: Beginner</span>
+                </li>
+                <li class="skills-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span class="skills-name">Other Skills: YouTuber</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="education-section">
+        <div class="container">
+            <h2 class="education-title">Education</h2>
+            <p class="education-desc">
+                Pursuing B.Tech in Computer Science from Guru Nanak Dev Engineering College.
+            </p>
+        </div>
+    </section>
+    <section class="contact-section">
+        <div class="container">
+            <h2 class="contact-title">Contact Me</h2>
+            <p class="contact-desc">
+                Feel free to reach out to me if you have any questions, collaboration opportunities, or just want to connect.
+            </p>
+            <a href="mailto:ck7464877@gmail.com">ck7464877@gmail.com</a>
+            <a href="https://www.linkedin.com/in/chandan-kumar-7b522b18b/" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p class="copyright">
+                &copy; 2024 Chandan's Portfolio. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
